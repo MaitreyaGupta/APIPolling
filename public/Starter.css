@@ -1,0 +1,40 @@
+.poll{
+    width: 400px;
+    padding: 1.5rem;
+    background-color:red;
+    margin:50px;
+    font-family: sans-serif;
+    box-shadow: 0 0 20px rgba(0,0,0, 0.15);
+    border-radius: 10px;
+}
+
+.poll__title{
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+
+}
+.poll__option__fill{
+    width:50%;
+    height:10px;
+    background: white;
+
+}
+.poll__option:hover{
+    cursor: pointer;
+    background: yellow;
+}
+.poll__option__selected1:hover{
+    cursor: pointer;
+    background:green
+}
+.poll__option__selected2:hover{
+    cursor: pointer;
+    background: pink;
+}
+.poll__option__info{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+    font-size: 0.85rem;
+}
